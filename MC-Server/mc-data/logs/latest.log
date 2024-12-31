@@ -1,0 +1,14 @@
+[20:10:27] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[20:10:28] [Server thread/INFO]: [Rcon: Stopping the server]
+[20:10:28] [RCON Client /0:0:0:0:0:0:0:1 #2/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[20:10:28] [Server thread/INFO]: Stopping server
+[20:10:28] [Server thread/INFO]: Saving players
+[20:10:28] [Server thread/INFO]: Saving worlds
+[20:10:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:10:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20:10:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20:10:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:10:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:10:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:10:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:10:28] [Server thread/INFO]: Thread RCON Listener stopped
