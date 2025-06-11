@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mc-server
+  namespace: default
+  labels:
+    app.kubernetes.io/name: mc-server
+    name: mc-server
+    app: mc-server
+spec:
+  replicas: 1
+  selector: 
+    matchLabels:
+      app.kubernetes.io/name: mc-server
+      name: mc-server
+      app: mc-server
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: mc-server
+        name: mc-server
+        app: mc-server  
+    spec:
+      volumes:
+      - name: mc-data
+        hostPath:
+          path: /home/obertguo/Desktop/home-server/MC-Server/mc-data
+      containers:
+      - name: mc-server
+        image: itzg/minecraft-server
+        imagePullPolicy: IfNotPresent
+        env:
+          - name: EULA
+            value: "true"
+        volumeMounts:
+          - mountPath: /data
+            name: mc-data
+        ports:
+        - containerPort: 25565
+          hostPort: 25565
+          name: mc-port-tcp
+          protocol: TCP
+        - containerPort: 25565
+          hostPort: 25565
+          name: mc-port-udp
+          protocol: UDP

@@ -1,14 +1,10 @@
-[20:10:27] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
-[20:10:28] [Server thread/INFO]: [Rcon: Stopping the server]
-[20:10:28] [RCON Client /0:0:0:0:0:0:0:1 #2/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
-[20:10:28] [Server thread/INFO]: Stopping server
-[20:10:28] [Server thread/INFO]: Saving players
-[20:10:28] [Server thread/INFO]: Saving worlds
-[20:10:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:10:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[20:10:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[20:10:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:10:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:10:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:10:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20:10:28] [Server thread/INFO]: Thread RCON Listener stopped
+[18:37:10] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:37:10] [ServerMain/ERROR]: Failed to start the minecraft server
+azd$a: /data/./world/session.lock: already locked (possibly by other Minecraft instance?)
+	at azd$a.a(SourceFile:95) ~[server-1.21.5.jar:?]
+	at azd.a(SourceFile:41) ~[server-1.21.5.jar:?]
+	at fah$c.<init>(SourceFile:374) ~[server-1.21.5.jar:?]
+	at fah.d(SourceFile:353) ~[server-1.21.5.jar:?]
+	at net.minecraft.server.Main.main(SourceFile:139) ~[server-1.21.5.jar:?]
+	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
+	at java.base/java.lang.Thread.run(Unknown Source) [?:?]

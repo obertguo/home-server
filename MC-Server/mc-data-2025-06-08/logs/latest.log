@@ -1,0 +1,10 @@
+[16:21:38] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:21:39] [ServerMain/ERROR]: Failed to start the minecraft server
+azd$a: /data/./world/session.lock: already locked (possibly by other Minecraft instance?)
+	at azd$a.a(SourceFile:95) ~[server-1.21.5.jar:?]
+	at azd.a(SourceFile:41) ~[server-1.21.5.jar:?]
+	at fah$c.<init>(SourceFile:374) ~[server-1.21.5.jar:?]
+	at fah.d(SourceFile:353) ~[server-1.21.5.jar:?]
+	at net.minecraft.server.Main.main(SourceFile:139) ~[server-1.21.5.jar:?]
+	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
+	at java.base/java.lang.Thread.run(Unknown Source) [?:?]

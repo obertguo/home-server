@@ -1,0 +1,23 @@
+[00:04:31] [User Authenticator #1/INFO]: UUID of player d4nchen is 877c0ddb-8ce0-4963-bd10-aff712de8252
+[00:04:32] [Server thread/INFO]: d4nchen[/99.243.154.109:55170] logged in with entity id 74 at (745.6361427344333, 91.0, 222.56799213792854)
+[00:04:32] [Server thread/INFO]: d4nchen joined the game
+[00:04:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[00:05:37] [Server thread/INFO]: d4nchen has made the advancement [Not Today, Thank You]
+[00:08:24] [Server thread/INFO]: d4nchen has made the advancement [Best Friends Forever]
+[00:24:54] [Server thread/INFO]: d4nchen lost connection: Disconnected
+[00:24:54] [Server thread/INFO]: d4nchen left the game
+[00:25:54] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[13:46:42] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[13:46:42] [Server thread/INFO]: [Rcon: Stopping the server]
+[13:46:42] [Server thread/INFO]: Stopping server
+[13:46:42] [RCON Client /0:0:0:0:0:0:0:1 #2/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[13:46:42] [Server thread/INFO]: Saving players
+[13:46:42] [Server thread/INFO]: Saving worlds
+[13:46:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:46:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[13:46:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[13:46:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:46:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:46:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:46:43] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:46:43] [Server thread/INFO]: Thread RCON Listener stopped
