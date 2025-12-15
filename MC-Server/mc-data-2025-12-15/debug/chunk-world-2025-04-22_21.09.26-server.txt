@@ -1,0 +1,127 @@
+---- Minecraft Chunk IO Error Report ----
+// Let's not do it again...
+
+Time: 2025-04-22 21:09:26
+Description: Chunk found in invalid location
+
+java.lang.IllegalStateException: Retrieved chunk position [3, -1] does not match requested [2, -6]
+	at eev.a(SourceFile:20)
+	at eev.a(SourceFile:30)
+	at eey.a(SourceFile:65)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(Unknown Source)
+	at ag.a(SourceFile:297)
+	at btp.f(SourceFile:50)
+	at btp.run(SourceFile:62)
+	at amo.run(SourceFile:18)
+	at btq.d(SourceFile:164)
+	at btv.d(SourceFile:23)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:882)
+	at net.minecraft.server.MinecraftServer.d(SourceFile:178)
+	at btq.B(SourceFile:138)
+	at net.minecraft.server.MinecraftServer.bv(SourceFile:864)
+	at net.minecraft.server.MinecraftServer.B(SourceFile:858)
+	at btq.b(SourceFile:147)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:822)
+	at net.minecraft.server.MinecraftServer.w_(SourceFile:829)
+	at net.minecraft.server.MinecraftServer.y(SourceFile:712)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:290)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: IO-Worker-73
+Stacktrace:
+	at eev.a(SourceFile:20)
+	at eev.a(SourceFile:30)
+	at eey.a(SourceFile:65)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(Unknown Source)
+	at ag.a(SourceFile:297)
+	at btp.f(SourceFile:50)
+	at btp.run(SourceFile:62)
+	at amo.run(SourceFile:18)
+	at btq.d(SourceFile:164)
+	at btv.d(SourceFile:23)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:882)
+	at net.minecraft.server.MinecraftServer.d(SourceFile:178)
+	at btq.B(SourceFile:138)
+	at net.minecraft.server.MinecraftServer.bv(SourceFile:864)
+	at net.minecraft.server.MinecraftServer.B(SourceFile:858)
+	at btq.b(SourceFile:147)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:822)
+
+-- Misplaced Chunk --
+Details:
+	Stored Position: [3, -1]
+Stacktrace:
+	at eev.a(SourceFile:20)
+	at eev.a(SourceFile:30)
+	at eey.a(SourceFile:65)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(Unknown Source)
+	at ag.a(SourceFile:297)
+	at btp.f(SourceFile:50)
+	at btp.run(SourceFile:62)
+	at amo.run(SourceFile:18)
+	at btq.d(SourceFile:164)
+	at btv.d(SourceFile:23)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:882)
+	at net.minecraft.server.MinecraftServer.d(SourceFile:178)
+	at btq.B(SourceFile:138)
+	at net.minecraft.server.MinecraftServer.bv(SourceFile:864)
+	at net.minecraft.server.MinecraftServer.B(SourceFile:858)
+	at btq.b(SourceFile:147)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:822)
+	at net.minecraft.server.MinecraftServer.w_(SourceFile:829)
+	at net.minecraft.server.MinecraftServer.y(SourceFile:712)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:290)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+-- Chunk Info --
+Details:
+	Level: world
+	Dimension: minecraft:overworld
+	Storage: entities
+	Position: [2, -6]
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.a(SourceFile:2048)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.5
+	Minecraft Version ID: 1.21.5
+	Operating System: Linux (amd64) version 6.8.0-51-generic
+	Java Version: 21.0.6, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 195452000 bytes (186 MiB) / 1073741824 bytes (1024 MiB) up to 1073741824 bytes (1024 MiB)
+	CPUs: 4
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Pentium(R) CPU  J2900  @ 2.41GHz
+	Identifier: Intel64 Family 6 Model 55 Stepping 3
+	Microarchitecture: Silvermont
+	Frequency (GHz): 2.41
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 4
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MiB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MiB): 5962.55
+	Virtual memory used (MiB): 4183.20
+	Swap memory total (MiB): 2048.00
+	Swap memory used (MiB): 0.00
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 194936.08, total: 233141.66
+	Space in storage for workdir (MiB): available: 194936.08, total: 233141.66
+	JVM Flags: 2 total; -Xmx1G -Xms1G
