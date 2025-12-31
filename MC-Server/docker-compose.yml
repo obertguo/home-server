@@ -8,5 +8,3 @@ services:
       - EULA=TRUE
     volumes:
       - ./mc-data:/data
-
-# D4nchen base - 744 91 222

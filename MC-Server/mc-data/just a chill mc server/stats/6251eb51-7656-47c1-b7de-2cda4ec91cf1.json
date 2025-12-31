@@ -1,0 +1,25 @@
+{
+  "stats": {
+    "minecraft:mined": {
+      "minecraft:oak_leaves": 3,
+      "minecraft:lilac": 1
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 25688,
+      "minecraft:time_since_rest": 4453,
+      "minecraft:fall_one_cm": 5225,
+      "minecraft:walk_one_cm": 21881,
+      "minecraft:total_world_time": 4453,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 25194,
+      "minecraft:walk_on_water_one_cm": 366,
+      "minecraft:play_time": 4453,
+      "minecraft:jump": 164,
+      "minecraft:time_since_death": 4453
+    },
+    "minecraft:picked_up": {
+      "minecraft:lilac": 1
+    }
+  },
+  "DataVersion": 4671
+}
