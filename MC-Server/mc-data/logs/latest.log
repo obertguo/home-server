@@ -1,1 +1,20 @@
-[12:57:16] [Server thread/INFO]: MCScans (/192.168.65.1:36473) lost connection: Disconnected
+[00:25:29] [Server thread/INFO]: popiiumaa (/192.168.65.1:28085) lost connection: Disconnected
+[00:33:29] [Server thread/INFO]: /192.168.65.1:47980 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.io.IOException: Packet login/serverbound/minecraft:hello (aky) was larger than I expected, found 21 bytes extra whilst reading packet serverbound/minecraft:hello
+[04:05:13] [Server thread/INFO]: /192.168.65.1:52158 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.io.IOException: Packet login/serverbound/minecraft:hello (aky) was larger than I expected, found 21 bytes extra whilst reading packet serverbound/minecraft:hello
+[05:33:07] [Server thread/INFO]: /192.168.65.1:62599 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.io.IOException: Packet login/serverbound/minecraft:hello (aky) was larger than I expected, found 21 bytes extra whilst reading packet serverbound/minecraft:hello
+[05:40:43] [Server thread/INFO]: /192.168.65.1:55384 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.io.IOException: Packet login/serverbound/minecraft:hello (aky) was larger than I expected, found 21 bytes extra whilst reading packet serverbound/minecraft:hello
+[11:40:51] [Server thread/INFO]: /192.168.65.1:36726 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.io.IOException: Packet login/serverbound/minecraft:hello (aky) was larger than I expected, found 21 bytes extra whilst reading packet serverbound/minecraft:hello
+[14:47:54] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[14:47:54] [Server thread/INFO]: [Rcon: Stopping the server]
+[14:47:54] [RCON Client /0:0:0:0:0:0:0:1 #2/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[14:47:54] [Server thread/INFO]: Stopping server
+[14:47:54] [Server thread/INFO]: Saving players
+[14:47:54] [Server thread/INFO]: Saving worlds
+[14:47:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[just a chill mc server]'/minecraft:overworld
+[14:47:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[just a chill mc server]'/minecraft:the_nether
+[14:47:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[just a chill mc server]'/minecraft:the_end
+[14:47:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (just a chill mc server): All chunks are saved
+[14:47:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:47:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:47:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:47:54] [Server thread/INFO]: Thread RCON Listener stopped
